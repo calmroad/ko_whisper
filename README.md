@@ -42,4 +42,9 @@ https://openai.com/research/whisper
 # Whisper의 단점
 - 다양한 크기로 사전 학습해둔 모델을 공개해주고 있지만, 실제 테스트를 해보면, 크다고 성능이 좋다고는 볼수 없다.
 - python으로 되어 있어 무겁다.
+- 
+# Whisper의 성능 업그레이드(fine tuning)
 - 성능을 개선할수 있도록 다른 AI 알고리즘처럼, fine tuning을 할수 있도록 제공해주고 있다. 
+ https://github.com/huggingface/transformers/blob/v4.39.2/src/transformers/models/whisper
+
+# whisper korean fine tunning 방법
